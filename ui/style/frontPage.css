@@ -65,6 +65,10 @@ body {
   padding-left: 40px;
 }
 
+#search:focus {
+  outline: none;
+}
+
 .service-available {
   display: flex;
   justify-content: space-evenly;

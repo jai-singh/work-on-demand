@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Work On Demand</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style/frontPage.css">
-  <script src="./script/index.js"></script>
+  <link rel="stylesheet" href="./style/loginPage.css">
+  <script src="./script/loginPage.js"></script>
 </head>
 <body>
   <!--Top Bar-->
@@ -16,11 +16,35 @@
       <h1 class="company-title">Work on Demand</h1>
     </div>
     <div class="right-top-bar">
-      <a href="/home.html" class="top-bar-link">Login/Sign up</a> 
-      <a href="/register-as-worker.html" class="top-bar-link">Register As A Worker</a>          
+      <a href="./frontPage.html" class="top-bar-link">Home</a> 
+      <a href="./register-as-worker.html" class="top-bar-link">Register As A Worker</a>          
     </div>
   </header>
 
+  <!-- middle page -->
+  <main class="middle-page" id="mpage"> 
+    <div class="login-box">
+      <h1 class="title">Login</h1>
+      <form>
+        <div class="login-attributes">
+          <input type="text" placeholder="User Name" id="username" class="text-box" autocomplete="off">
+        </div>
+
+        <div class="login-attributes">
+          <input type="password" placeholder="Password" id="password" class="text-box">
+        </div>
+        
+        <div class="login-attributes">
+          <input type="submit" value="Login" id="login-button" class="button">       
+        </div>
+
+        <div class="login-attributes">
+          <input type="button" value="Sign Up" id="login-button" class="button">
+        </div>
+      </form> 
+
+    </div>
+  </main>
 
   <!-- Bottom of the page -->
   <footer>
