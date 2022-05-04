@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Inter;
+}
+/* top portion style */
+.top-bar {
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-top-bar {
+  width: 80%;
+}
+
+.right-top-bar {
+  width: 20%;
+  padding: 25px 0px;
+}
+
+.top-bar-link {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: black;
+  transition: transform 1s; 
+}
+
+.top-bar-link:hover {
+  text-decoration: underline;
+}
+
+/* middle page style */
+.middle-page {
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-template-columns: auto;  
+  grid-gap: 20px;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 540px;
+}
+
+.content {
+  margin: 30px;
+  background-color: rgb(240, 248, 255, 0.4); 
+  text-align: center;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.para {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.contact-div {
+  padding: 30px;
+  font-weight: 600;
+}
+
+.careers-para {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.privacy-para {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.terms-para {
+  padding: 20px;
+  font-weight: 600;
+}
+
+/* bottom css */
+.bootom-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bootom-link {
+  text-decoration: none;
+  padding: 0px 5px;
+  color: black;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
