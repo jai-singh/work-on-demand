@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Work On Demand</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style/signUpUser.css">
-  <script src="./script/signUpUser.js"></script>
+  <link rel="stylesheet" href="./style/signUpWorker.css">
+  <script src="./script/signUpWorker.js"></script>
 </head>
 <body>
   <!--Top Bar-->
@@ -18,15 +18,15 @@
     <div class="right-top-bar">
       <a href="./frontPage.html" class="top-bar-link">Home</a>       
       <a href="./loginPage.html" class="top-bar-link">Login</a> 
-      <a href="./signUpWorker.html" class="top-bar-link">Register As A Worker</a>          
+      <a href="./signUpUser.html" class="top-bar-link">Sign Up User</a>          
     </div>
   </header>
 
   <!-- middle page -->
   <main class="middle-page" id="mpage"> 
     <div class="signup-box">
-      <h1 class="title">Sign Up</h1>
-      <form>
+      <h1 class="title">Register as Worker</h1>
+      <form class="form">
         <div class="signup-attributes">
           <input type="text" placeholder="Full Name" id="name" class="username text-box" autocomplete="off">
         </div>
@@ -37,6 +37,14 @@
 
         <div class="signup-attributes">
           <input type="number" placeholder="Phone Number" id="phone-no" class="phone text-box" autocomplete="off">
+        </div>
+
+        <div class="signup-attributes">
+          <input type="text" placeholder="Type of Work" id="type-of-work" class="work text-box" autocomplete="off">
+        </div>
+
+        <div class="signup-attributes">
+          <input type="text" placeholder="Loaction" id="loaction" class="location text-box" autocomplete="off">
         </div>
 
         <div class="signup-attributes">
