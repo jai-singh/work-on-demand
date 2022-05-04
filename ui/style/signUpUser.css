@@ -33,7 +33,6 @@ body {
 /* middle page */
 .middle-page {
   display: grid;
-  /* background-image: url("../img/worker/p3.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   grid-template-columns: auto;  
@@ -43,9 +42,9 @@ body {
   height: 540px;
 }
 
-.login-box {
+.signup-box {
   border-radius: 5px;
-  background-color: rgb(240, 248, 255, 0.4);  ;
+  background-color: rgb(240, 248, 255, 0.4);  
 }
 
 .title {
@@ -54,7 +53,7 @@ body {
   font-weight: bold;
 }
 
-.login-attributes {
+.signup-attributes {
   padding: 10px;
 }
 
@@ -66,7 +65,7 @@ body {
   box-shadow: 0 0 10px #719ECE;
 }
 
-#username {
+.username {
    /* user icon inserted */
    background-image: url(../img/user-icon.png);
    background-position: 5px center;
@@ -74,7 +73,23 @@ body {
    padding-left: 40px;
 }
 
-#password {
+.email {
+  /* email icon inserted */
+  background-image: url(../img/email-icon.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.phone {
+  /* phone icon inserted */
+  background-image: url(../img/phone-icon.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.password {
   /* password icon inserted */
   background-image: url(../img/padlock.png);
   background-position: 5px center;
